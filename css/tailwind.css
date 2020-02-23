@@ -1,5 +1,13 @@
 @tailwind base;
 @tailwind components;
-
+.navBtn {
+    @apply text-gray-500
+}
+.navBtn:hover{
+    color: #4c51bf;
+}
+.active {
+    color: #4c51bf;
+}
 
 @tailwind utilities;
